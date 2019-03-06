@@ -67,6 +67,8 @@ header div:nth-child(4):hover {
 
 nav {
     background-color:#555;
+    padding: 10px 0 10px 50px;
+    margin: 20px 0;
     
     
 }
@@ -78,7 +80,8 @@ nav ul{
 
 nav ul li{
     float: left;
-    width: 30%;
+    width: 25%;
+    margin: 0 10px;
 
 }
 
@@ -89,7 +92,78 @@ nav ul li{
     letter-spacing: 1px;
     text-align: center;
     line-height: 50px;
-    border: 1px solid white;
     display: block;
+    text-transform: uppercase;
+    border: 2px solid #fff;
 
+
+    }
+
+    nav ul li a:hover{
+        background-color: grey;
+    }
+
+    /*------------MAIN---------------*/
+    div.blog{
+        margin-top: 40px;
+    }
+
+    main{
+        float: left;
+        width: 65%;
+        padding: 40px 20px 0 20px;
+    }
+
+    article img{
+        width: 200px;
+        float: left;
+        margin: 20px 20px 20px 0;
+    }
+
+    article h1{
+        text-transform: uppercase;
+    }
+
+    article p{
+        margin-top: 20px;
+    }
+
+   
+
+
+    /*-----------ASIDE------------------*/
+
+aside{
+    float: left;
+    width: 30%;
+}
+
+section.contact{
+    background-color: #ddd;
+    padding: 15px;
+}
+
+section.contact p{
+    margin-bottom: 24px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+section.contact ul{
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+section.contact li i{
+    margin-right: 20px;
+}
+
+    /*--------FOOTER-----------*/
+    footer{
+        background-color: #555;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 40px;
+        font-size: 1.5rem;
     }
