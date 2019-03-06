@@ -156,6 +156,24 @@ section.contact ul{
 
 section.contact li i{
     margin-right: 20px;
+
+}
+
+section.news{
+    height: 400px;
+    background-color: #ddd;
+    margin-top: 20px;
+    
+}
+
+.news p {
+    font-size: 1.5rem;
+    padding: 20px;
+    text-align: center;
+    
+}
+section.contact li {
+    margin: 20px;
 }
 
     /*--------FOOTER-----------*/
